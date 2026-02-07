@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #003154, #0072C4);
+}
+.container{
+    /* Grid fills the viewport height exactly so it won't cause vertical scrollbars */
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+/* Allow grid items to shrink so their children can't force overflow */
+.container > * {
+    min-height: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Ensure split children can shrink inside their grid cell */
+.split > * {
+    min-height: 0;
+}
+/* Span */
+.col-span-2 { grid-column: span 2; }
+.row-span-2 { grid-row: span 2; }
+
+
+/* Column utilities */
+.col-1 { grid-column: 1; }
+.col-2 { grid-column: 2; }
+.col-3 { grid-column: 3; }
+
+/* Row utilities */
+.row-1 { grid-row: 1; }
+.row-2 { grid-row: 2; }
+.row-3 { grid-row: 3; }
+
+/* Borders */
+.bordder-top {border-top: 2px solid #003154;}
+.bordder-right {border-right: 2px solid #003154;}
+.bordder-bottom {border-bottom: 2px solid #003154;}
+.bordder-left {border-left: 2px solid #003154;}
+
