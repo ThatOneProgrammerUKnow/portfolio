@@ -15,6 +15,7 @@ h1{
     border: 1px solid;
     width: 120px;
     text-align: center;
+    display: block;
 }
 .btn:hover{
     cursor: pointer;
@@ -31,4 +32,20 @@ h1{
 
 }
 
+/* Custom */
+.card{
+    border-radius: 50px;
+    min-width: 250px;
+    max-width: 450px;
 
+    min-height: 300px;
+}
+.card-primary{
+    background: #FFF2CC;
+    border: 2px solid #522504;
+    justify-items: center;
+
+}
+
+
+ 

@@ -5,17 +5,30 @@
 }
 body{
     font-family: Arial, sans-serif;
-
     background: linear-gradient(to bottom right, #003154, #0072C4);
 }
 
-.container{
-    /* Grid fills the viewport height exactly so it won't cause vertical scrollbars */
+.width-screen{
+    width: 100vw;
+}
+.height-screen{
+    height: 100vh;
+}
+/* Grid containers */
+.grid{
     display: grid;
+}
+
+.collage{
+    /* Grid fills the viewport height exactly so it won't cause vertical scrollbars */
     width: 100%;
     height: 100vh;
     grid-template-columns: 30% 40% 30%;
     grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.card-container{
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Allow grid items to shrink so their children can't force overflow */
@@ -60,10 +73,25 @@ img{
 .bb {border-bottom: 2px solid #003154;}
 .bl {border-left: 2px solid #003154;}
 
+/* Margin */
 .mt {margin-top: 10px;}
 .mr {margin-right: 10px;}
 .mb {margin-bottom: 10px;}
 .ml {margin-left: 10px;}
+
+.m-10px {margin: 10px;}
+.m-15px {margin: 15px;}
+.m-20px {margin: 20px;} 
+
+/* Padding */
+.p-10px {padding: 10px;}
+.p-15px {padding: 15px;}
+.p-20px {padding: 20px;}
+.p-25px {padding: 25px;}
+.p-30px {padding: 30px;}
+.p-40px {padding: 40px;}
+.p-50px {padding: 50px;}
+
 
 /* Middle section */
 .center-section {
@@ -78,5 +106,17 @@ img{
     grid-gap: 20px;
     margin-top: 20px;
     justify-items: center;
+}
+
+/* Alignment usilities */
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
 }
 
