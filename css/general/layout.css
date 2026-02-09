@@ -3,10 +3,21 @@
     padding: 0;
     box-sizing: border-box; 
 }
+html{
+    font-size: 16px;
+}
 body{
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, var(--color-bg-start), var(--color-bg-end));
 }
+
+/* --- NAVIGATION --- */
+.hor-nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
 
 
 /* Grid containers */

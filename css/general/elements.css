@@ -1,14 +1,21 @@
+:root{
+    --tduration: 0.2s;
+}
 a{
     text-decoration: none;
 }
 
 h1{
     color: var(--color-paper);
-    font-size: 3em;
+    font-size:  var(--text-5xl);
     font-style:italic;
     font-weight: bold;
     margin-bottom: 15px;
 }
+h2{ font-size: var(--text-4xl); }
+h3{ font-size: var(--text-3xl); }
+h4{ font-size: var(--text-2xl); }
+h5{ font-size: var(--text-xl); }
 
 /* --- BUTTON UTILITIES --- */
 .btn {
@@ -31,9 +38,10 @@ h1{
     font-weight: bold;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary-hover {
     background-color: var(--color-amber-hover);
 }
+
 
 /* --- LOGOS --- */
 /* Round */
@@ -49,7 +57,7 @@ h1{
 /* Custom */
 .ltailwind {
     width: 60px;
-    height: 60px;
+    height: 50px;
     border-radius: 15px;
 }
 .ldocker {
@@ -65,23 +73,33 @@ h1{
 
 
 /* Custom */
-.card{
-    border-radius: 50px;
-    min-width: 250px;
-    max-width: 500px;
-    min-height: 300px;
-
-    color: var(--color-wood);
-    font-weight: bold;
-}
 .card > hr{
     border: 1px solid var(--color-wood);
     width: 100%;
 }
+
+.card{
+    border-radius: 50px;
+    min-width: 250px;
+    max-width: 450px;
+    color: var(--color-wood);
+    transition-duration: var(--tduration);
+}
+.card:hover{
+    cursor: pointer;
+    transition-duration: var(--tduration);
+    transform: translateY(-2px);
+
+}
+
 .card-primary{
     background: var(--color-paper);
     border: 2px solid var(--color-wood);
     justify-items: center;
-
+    box-shadow: 0 2px 1px 1px var(--color-wood-25);
+}
+.card-primary:hover{
+    box-shadow: 0 2px 1px 1px var(--color-wood-50);
+    transition-duration: var(--tduration);
 }
 

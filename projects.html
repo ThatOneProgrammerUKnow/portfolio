@@ -3,36 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Projects - Kobus van Schalkwyk</title>
     <link rel="stylesheet" href="css/general/layout.css">
     <link rel="stylesheet" href="css/general/elements.css">
     <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/projects/layout.css">
 </head>
-<body class="width-screen height-screen">
+<body class="min-w-screen min-h-screen">
     <!-- Nav bar -->
-    <nav class="p-30px">
+    <nav class="p-30px hor-nav">
         <ul class="justify-around">
             <li><a href="landing.html" class="btn btn-primary">Home</a></li>
-            <li><a href="#" class="btn btn-primary">CV</a></li>
+            <li><a href="cv.html" class="btn btn-primary">CV</a></li>
             <li><a href="#" class="btn btn-primary">About me</a></li>
+            <li><a href="#" class="btn btn-primary btn-primary-hover">Projects</a></li>
             <li><a href="#" class="btn btn-primary">Contact me</a></li>
         </ul>
     </nav>
 
     <!-- Cards -->
-    <section class="grid card-container align-center">
-        <div class="card card-primary">
-            <h2 class="m-10px">My heading</h2>
-            <hr>
-            <div class="flex flex-row justify-around p-50px">
+    <section class="grid card-container align-center mt-20px">
+        <div class="card card-primary p-30px">
+            <h2 class="">VSI Sales</h2>
+            <hr class="mt-10px mb-20px">
+            <div class="flex flex-row p-20px gap-20px">
                 <img class="logo lround" src="logos/django.png" alt="Django logo"></img>
-                <img class="logo lround" src="logos/python.jpg" alt="Python logo"></img>
-                <img class="logo lround" src="logos/html.jpg" alt="Html Logo"></img>
+                <img class="logo lround" src="logos/python.png" alt="Python logo"></img>
+                <img class="logo lround" src="logos/html.png" alt="Html Logo"></img>
                 <img class="logo ltailwind" src="logos/tailwind.jpg" alt="Tailwind logo"></img>
                 <img class="logo ldocker" src="logos/docker.png" alt="Docker logo"></img>
             </div>
-            <p>This is a project</p>
+            <p class="text-lg font-bold">Bussiness tool and database program</p>
+        </div>
+        <div class="card card-primary p-30px">
+            <h2 class="">Smart assistant</h2>
+            <hr class="mt-10px mb-20px">
+            <div class="flex flex-row p-20px gap-20px">
+                <img class="logo lround" src="logos/python.png" alt="Python logo"></img>
+                <img class="logo lround" src="logos/spotify.png" alt="Spotify logo"></img>
+                <img class="logo lround" src="logos/weather.png" alt="Weather Logo"></img>
+                <img class="logo lelevenlabs" src="logos/elevenlabs.png" alt="Elevenlabs logo"></img>
+            </div>
+            <p class="text-lg font-bold">
+                A smart assistant written in  Python that works with Spotify API, a weather API and 
+                Elevenlabs text to speech and speech to text API. 
+            </p>
         </div>
     </section>
 </body>
