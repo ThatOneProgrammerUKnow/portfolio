@@ -1,0 +1,8 @@
+Card
+<div clas="flex flex-row justify-around">
+    <img class="logo" src="" alt=""></img>
+    <img class="logo" src="" alt=""></img>
+    <img class="logo" src="" alt=""></img>
+    <img class="logo" src="" alt=""></img>
+    <img class="logo" src="" alt=""></img>
+</div>

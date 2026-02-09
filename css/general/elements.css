@@ -3,13 +3,15 @@ a{
 }
 
 h1{
-    color: white;
+    color: var(--color-paper);
     font-size: 3em;
     font-style:italic;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.btn{
+
+/* --- BUTTON UTILITIES --- */
+.btn {
     padding: 10px;
     border-radius: 8px;
     border: 1px solid;
@@ -17,35 +19,69 @@ h1{
     text-align: center;
     display: block;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
 }
 
-.btn-primary{
-    background-color: #E8B931;
-    color: #522504;
-    border-color: #BF6A02;
+.btn-primary {
+    background-color: var(--color-amber);
+    color: var(--color-wood);
+    border-color: var(--color-wood-dark);
     font-weight: bold;
 }
-.btn-primary:hover{
-    background-color: #E5A000;
 
+.btn-primary:hover {
+    background-color: var(--color-amber-hover);
 }
+
+/* --- LOGOS --- */
+/* Round */
+.logo{
+    object-fit: cover;
+    border: 1px solid black;
+}
+.lround {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* Custom */
+.ltailwind {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.ldocker {
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+}
+.lelevenlabs {
+    width: 92px;
+    height: 60px;
+    border-radius: 25px;
+}
+
 
 /* Custom */
 .card{
     border-radius: 50px;
     min-width: 250px;
-    max-width: 450px;
-
+    max-width: 500px;
     min-height: 300px;
+
+    color: var(--color-wood);
+    font-weight: bold;
+}
+.card > hr{
+    border: 1px solid var(--color-wood);
+    width: 100%;
 }
 .card-primary{
-    background: #FFF2CC;
-    border: 2px solid #522504;
+    background: var(--color-paper);
+    border: 2px solid var(--color-wood);
     justify-items: center;
 
 }
 
-
- 
