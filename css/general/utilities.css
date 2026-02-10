@@ -22,6 +22,10 @@
    --color-paper-50: rgba(255, 242, 204, 0.50);
     --color-paper-25: rgba(255, 242, 204, 0.25);
 
+    --color-light-gray: #C1CAD7;
+
+    --color-subtle-blue: #EBF4FF;
+
    
 
    /* --- FONT --- */
@@ -258,6 +262,12 @@
 
 .min-w-screen { min-width: 100vw; }
 .min-h-screen { min-height: 100vh; }
+
+@for $i from 10 through 1000 by 10 {
+    .w-#{$i}px {
+        width: #{$i}px;
+    }
+}
 
 
 /* --- FONT UTILITIES --- */
