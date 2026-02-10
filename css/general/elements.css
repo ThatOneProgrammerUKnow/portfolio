@@ -1,5 +1,5 @@
 :root{
-    --tduration: 0.2s;
+    --tduration: 0.4s;
 }
 a{
     text-decoration: none;
@@ -25,10 +25,12 @@ h5{ font-size: var(--text-xl); }
     width: 120px;
     text-align: center;
     display: block;
+    transition-duration: var(--tduration);
 }
 
 .btn:hover {
     cursor: pointer;
+
 }
 
 .btn-primary {
@@ -36,10 +38,26 @@ h5{ font-size: var(--text-xl); }
     color: var(--color-wood);
     border-color: var(--color-wood-dark);
     font-weight: bold;
+    box-shadow: 0 2px 1px 1px var(--color-wood-25);
 }
 
-.btn-primary:hover, .btn-primary-hover {
+.btn-primary:hover{
     background-color: var(--color-amber-hover);
+    box-shadow: 0 4px 2px 2px var(--color-wood-25);
+    transform: translateY(-2px);
+    transition-duration: var(--tduration);
+}
+
+
+.btn-primary-active{
+    color: var(--color-wood);
+    border-color: var(--color-wood-dark);
+    font-weight: bold;
+
+    background-color: var(--color-amber-hover);
+    box-shadow: 0 4px 2px 2px var(--color-wood-25);
+    transform: translateY(-2px);
+    transition-duration: var(--tduration);
 }
 
 
@@ -72,7 +90,8 @@ h5{ font-size: var(--text-xl); }
 }
 
 
-/* Custom */
+/* === CUSTOM === */
+/* --- CARD --- */
 .card > hr{
     border: 1px solid var(--color-wood);
     width: 100%;
@@ -81,7 +100,6 @@ h5{ font-size: var(--text-xl); }
 .card{
     border-radius: 50px;
     min-width: 250px;
-    max-width: 450px;
     color: var(--color-wood);
     transition-duration: var(--tduration);
 }
@@ -103,3 +121,15 @@ h5{ font-size: var(--text-xl); }
     transition-duration: var(--tduration);
 }
 
+/* --- FORMS --- */
+/* Inputs */
+.text-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--color-light-gray);
+    background-color: var(--color-subtle-blue);
+    width: 100%;
+    transition-duration: var(--tduration);
+
+    color: var(--color-wood);
+}
