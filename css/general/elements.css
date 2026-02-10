@@ -1,135 +1,150 @@
-:root{
-    --tduration: 0.4s;
-}
-a{
-    text-decoration: none;
+:root {
+  --tduration: 0.4s;
 }
 
-h1{
-    color: var(--color-paper);
-    font-size:  var(--text-5xl);
-    font-style:italic;
-    font-weight: bold;
-    margin-bottom: 15px;
+a {
+  text-decoration: none;
 }
-h2{ font-size: var(--text-4xl); }
-h3{ font-size: var(--text-3xl); }
-h4{ font-size: var(--text-2xl); }
-h5{ font-size: var(--text-xl); }
+
+h1 {
+  color: var(--color-paper);
+  font-size: var(--text-5xl);
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: var(--text-4xl);
+}
+
+h3 {
+  font-size: var(--text-3xl);
+}
+
+h4 {
+  font-size: var(--text-2xl);
+}
+
+h5 {
+  font-size: var(--text-xl);
+}
 
 /* --- BUTTON UTILITIES --- */
 .btn {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid;
-    width: 120px;
-    text-align: center;
-    display: block;
-    transition-duration: var(--tduration);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  width: 120px;
+  text-align: center;
+  display: block;
+  transition-duration: var(--tduration);
+  box-sizing: border-box;
 }
 
 .btn:hover {
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
 .btn-primary {
-    background-color: var(--color-amber);
-    color: var(--color-wood);
-    border-color: var(--color-wood-dark);
-    font-weight: bold;
-    box-shadow: 0 2px 1px 1px var(--color-wood-25);
+  background-color: var(--color-amber);
+  color: var(--color-wood);
+  border-color: var(--color-wood-dark);
+  font-weight: bold;
+  box-shadow: 0 2px 1px 1px var(--color-wood-25);
 }
 
-.btn-primary:hover{
-    background-color: var(--color-amber-hover);
-    box-shadow: 0 4px 2px 2px var(--color-wood-25);
-    transform: translateY(-2px);
-    transition-duration: var(--tduration);
+.btn-primary:hover {
+  background-color: var(--color-amber-hover);
+  box-shadow: 0 4px 2px 2px var(--color-wood-25);
+  transform: translateY(-2px);
+  transition-duration: var(--tduration);
 }
 
-
-.btn-primary-active{
-    color: var(--color-wood);
-    border-color: var(--color-wood-dark);
-    font-weight: bold;
-
-    background-color: var(--color-amber-hover);
-    box-shadow: 0 4px 2px 2px var(--color-wood-25);
-    transform: translateY(-2px);
-    transition-duration: var(--tduration);
+.btn-primary-active {
+  color: var(--color-wood);
+  border-color: var(--color-wood-dark);
+  font-weight: bold;
+  background-color: var(--color-amber-hover);
+  box-shadow: 0 4px 2px 2px var(--color-wood-25);
+  transform: translateY(-2px);
+  transition-duration: var(--tduration);
 }
-
 
 /* --- LOGOS --- */
 /* Round */
-.logo{
-    object-fit: cover;
-    border: 1px solid black;
-}
-.lround {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-/* Custom */
-.ltailwind {
-    width: 60px;
-    height: 50px;
-    border-radius: 15px;
-}
-.ldocker {
-    width: 80px;
-    height: 50px;
-    border-radius: 25px;
-}
-.lelevenlabs {
-    width: 92px;
-    height: 60px;
-    border-radius: 25px;
+.logo {
+  object-fit: cover;
+  border: 1px solid black;
 }
 
+.lround {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Custom */
+.ltailwind {
+  width: 60px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.ldocker {
+  width: 80px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.lelevenlabs {
+  width: 92px;
+  height: 60px;
+  border-radius: 25px;
+}
 
 /* === CUSTOM === */
 /* --- CARD --- */
-.card > hr{
-    border: 1px solid var(--color-wood);
-    width: 100%;
+.card > hr {
+  border: 1px solid var(--color-wood);
+  width: 100%;
 }
 
-.card{
-    border-radius: 50px;
-    min-width: 250px;
-    color: var(--color-wood);
-    transition-duration: var(--tduration);
-}
-.card:hover{
-    cursor: pointer;
-    transition-duration: var(--tduration);
-    transform: translateY(-2px);
-
+.card {
+  border-radius: 50px;
+  min-width: 250px;
+  color: var(--color-wood);
+  transition-duration: var(--tduration);
 }
 
-.card-primary{
-    background: var(--color-paper);
-    border: 2px solid var(--color-wood);
-    justify-items: center;
-    box-shadow: 0 2px 1px 1px var(--color-wood-25);
+.card:hover {
+  cursor: pointer;
+  transition-duration: var(--tduration);
+  transform: translateY(-2px);
 }
-.card-primary:hover{
-    box-shadow: 0 2px 1px 1px var(--color-wood-50);
-    transition-duration: var(--tduration);
+
+.card-primary {
+  background: var(--color-paper);
+  border: 2px solid var(--color-wood);
+  justify-items: center;
+  box-shadow: 0 2px 1px 1px var(--color-wood-25);
+}
+
+.card-primary:hover {
+  box-shadow: 0 2px 1px 1px var(--color-wood-50);
+  transition-duration: var(--tduration);
 }
 
 /* --- FORMS --- */
 /* Inputs */
-.text-input{
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--color-light-gray);
-    background-color: var(--color-subtle-blue);
-    width: 100%;
-    transition-duration: var(--tduration);
-
-    color: var(--color-wood);
+.text-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-light-gray);
+  background-color: var(--color-subtle-blue);
+  width: 100%;
+  transition-duration: var(--tduration);
+  color: var(--color-wood);
 }
+
+/*# sourceMappingURL=elements.css.map */

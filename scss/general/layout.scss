@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, var(--color-bg-start), var(--color-bg-end));
+}
+
+/* --- NAVIGATION --- */
+.hor-nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+
+/* Grid containers */
+.collage{
+    /* Grid fills the viewport height exactly so it won't cause vertical scrollbars */
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.card-container{
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+/* Allow grid items to shrink so their children can't force overflow */
+.container > * {
+    min-height: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Ensure split children can shrink inside their grid cell */
+.split > * {
+    min-height: 0;
+}
+
+
+/* Middle section */
+.center-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+    margin-top: 20px;
+    justify-items: center;
+}
