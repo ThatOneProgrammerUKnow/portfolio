@@ -1,3 +1,4 @@
+@use 'sass:list';
 /* ====================================
    UTILITIES - Easy Reference
    ==================================== */
@@ -31,7 +32,6 @@
 
     --color-subtle-blue: #EBF4FF;
     --color-subtle-blue-hover: #E2EDFA;
-
    
 
    /* --- FONT --- */
@@ -48,6 +48,8 @@
 
 
 /* --- COLOR UTILITIES --- */
+.color-white { color: white; }
+
 .text-amber { color: var(--color-amber); }
 .text-wood { color: var(--color-wood); }
 .bg-amber { background-color: var(--color-amber); }
@@ -257,4 +259,84 @@ $sizes-gap: 10, 12, 15, 20, 25, 30, 40, 50;
 .cursor-pointer { cursor: pointer;}
 
 
+// #========================================# POSITIONING #========================================#
+// #====================# Absolute & Relative #====================#
+.pos-rel { position: relative; }
+.pos-abs { position: absolute;}
 
+
+
+
+// Absolute positioning utilities
+// Generated ranges:
+//   1px–10px  (step 1)
+//   12px–50px (step 2)
+//   55px–100px (step 5)
+//   110px–500px (step 10)
+
+$position-values: ();
+
+// Extras
+@for $i from -50 through 0 {
+  $position-values: list.append($position-values, $i, comma);
+}
+// 1px to 10px (step 1)
+@for $i from -10 through 10 {
+  $position-values: list.append($position-values, $i, comma);
+}
+
+// 12px to 50px (step 2)
+$i: 12;
+@while $i <= 50 {
+  $position-values: list.append($position-values, $i, comma);
+  $i: $i + 2;
+}
+
+// 55px to 100px (step 5)
+$i: 55;
+@while $i <= 100 {
+  $position-values: list.append($position-values, $i, comma);
+  $i: $i + 5;
+}
+
+// 110px to 500px (step 10)
+$i: 110;
+@while $i <= 500 {
+  $position-values: list.append($position-values, $i, comma);
+  $i: $i + 10;
+}
+
+$sides: (
+  'l': 'left',
+  'r': 'right',
+  't': 'top',
+  'b': 'bottom',
+);
+
+@each $abbr, $property in $sides {
+  @each $value in $position-values {
+    .#{$abbr}-#{$value} {
+      #{$property}: #{$value}px;
+    }
+  }
+}
+.hor-mid { left: 50%; transform: translateX(-50%); }
+.ver-mid { top: 50%; transform: translateY(-50%); }
+.rel-mid { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+// #====================# Objects #====================#
+$step: 5;
+
+@for $x from 0 through 100 {
+  @if $x % $step == 0 {
+    @for $y from 0 through 100 {
+      @if $y % $step == 0 {
+
+        .p-#{$x}-#{$y} {
+          object-position: #{$x * 1%} #{$y * 1%};
+        }
+
+      }
+    }
+  }
+}

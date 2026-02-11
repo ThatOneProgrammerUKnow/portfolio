@@ -7,11 +7,8 @@ a {
 }
 
 h1 {
-  color: var(--color-paper);
   font-size: var(--text-5xl);
-  font-style: italic;
   font-weight: bold;
-  margin-bottom: 15px;
 }
 
 h2 {
@@ -135,6 +132,24 @@ div:has(> .tlogo) {
   width: 92px;
   height: 60px;
   border-radius: 25px;
+}
+
+/* --- PHOTOS --- */
+.photo {
+  object-fit: cover;
+  border: 1px solid black;
+  display: block;
+}
+
+.pround {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.p-big {
+  width: 215px;
+  height: 215px;
 }
 
 /* === CUSTOM === */
