@@ -22,18 +22,24 @@ h5{ font-size: var(--text-xl); }
     padding: 10px;
     border-radius: 8px;
     border: 1px solid;
-    width: 120px;
-    text-align: center;
     display: block;
     transition-duration: var(--tduration);
     box-sizing: border-box;
+
+    font-size: var(--text-2xl);
+    width: 170px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn:hover {
     cursor: pointer;
 
 }
-
+//#=====# PRIMARY BUTTON #=====#
 .btn-primary {
     background-color: var(--color-amber);
     color: var(--color-wood);
@@ -48,8 +54,6 @@ h5{ font-size: var(--text-xl); }
     transform: translateY(-2px);
     transition-duration: var(--tduration);
 }
-
-
 .btn-primary-active{
     color: var(--color-wood);
     border-color: var(--color-wood-dark);
@@ -61,8 +65,33 @@ h5{ font-size: var(--text-xl); }
     transition-duration: var(--tduration);
 }
 
+//#=====# SECONDARY BUTTON #=====#
+.btn-secondary {
+    background-color: var(--color-bg-end);
+    color: white;
+    border-color: var(--color-bg-start);
+    font-weight: bold;
+    box-shadow: 0 2px 1px 1px var(--color-bg-start-25);
+}
+
+.btn-secondary:hover{
+    background-color: var(--color-bg-end-hover);
+}
+
+//#=====# Button sizes #=====#
+.btn-sm { width: 120px; height: 40px; font-size: var(--text-lg); }
 
 /* --- LOGOS --- */
+/* Transparent */
+div:has(>.tlogo) {
+    display: flex;
+    align-items: center;
+}
+.tlogo{
+    object-fit: cover;
+    height: 55px;
+    border-radius: 50%;
+}
 /* Round */
 .logo{
     object-fit: cover;
@@ -105,10 +134,8 @@ h5{ font-size: var(--text-xl); }
     transition-duration: var(--tduration);
 }
 .card:hover{
-    cursor: pointer;
     transition-duration: var(--tduration);
     transform: translateY(-2px);
-
 }
 
 .card-primary{
@@ -123,7 +150,12 @@ h5{ font-size: var(--text-xl); }
 }
 
 /* --- FORMS --- */
-/* Inputs */
+// Labels
+label{
+    pointer-events: none;
+}
+
+// Inputs
 .text-input{
     padding: 10px;
     border-radius: 10px;
@@ -133,4 +165,12 @@ h5{ font-size: var(--text-xl); }
     transition-duration: var(--tduration);
 
     color: var(--color-wood);
+}
+.text-input:hover{
+    background-color: var(--color-subtle-blue-hover);
+}
+.text-input:focus{
+    outline: none;
+    box-shadow: 0 0 5px var(--color-wood-25);
+    background-color: var(--color-subtle-blue-hover);
 }

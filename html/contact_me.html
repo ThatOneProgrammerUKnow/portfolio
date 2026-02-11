@@ -21,25 +21,49 @@
             <li><a href="contact_me.html" class="btn btn-primary-active">Contact me</a></li>
         </ul>
     </nav>    
-    <section>
+    <section class="">
         <!-- Card -->
-        <div class="card card-primary">
-            <h2>Contact me</h2>
-            <form action="https://formspree.io/f/xojnvngo" method="POST">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" class="text-input" required><br>
+        <div class="card card-primary flex flex-col">
+                <form class="w-full p-50px pt-10px flex flex-col flex-grow-1" action="https://formspree.io/f/xojnvngo" method="POST">
+                    <h2>Contact me</h2>
+                    <label class="text-3xl mt-15px mb-5px" for="email">Your email:</label>
+                    <input type="email" id="email" name="email" class="text-input w-full text-lg" required>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" class="text-input" required></textarea><br>
-            </form>            
+                    <label class="text-3xl mt-15px mb-5px" for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="text-input w-full flex-grow-1 text-lg" required></textarea>
+                    <button type="submit" class="btn btn-secondary btn-sm mt-20px ml-auto mr-auto">Send</button>
+                </form>     
         </div>
 
         <!-- Sticky notes -->
-        <div class="notes-container">
-            <div class="note1"></div>
-            <div class="note2"></div>
-            <div class="note3"></div>
-            <div class="note4"></div>
+        <div class="notes-container ml-auto mr-auto">
+            <div class="note1 flex text-3xl">
+                <div class="tlogo ml-10px mr-20px">
+                    <img src="../logos/email.svg" alt="Email">
+                </div>
+                <a>kobus.vs.2006@gmail.com</a>
+            </div>
+
+            <div class="note2 flex text-3xl">
+                <div class="tlogo ml-10px mr-20px">
+                    <img src="../logos/phone.svg" alt="Email">
+                </div>
+                <a>+27 64 664 2788</a>
+            </div>
+            <div class="note3 flex text-lg">
+                <div class="tlogo ml-10px mr-20px">
+                    <img src="../logos/linkedin.svg" alt="Email">
+                </div>
+                <a class="text-lg">linkedin.com/in/kobus-van-schalkwyk-190794382</a>
+            </div>
+
+            <div class="note4 flex  text-lg">
+                <div class="tlogo ml-10px mr-20px">
+                    <img src="../logos/github.svg" alt="Email">
+                </div>
+                <a>https://github.com/ThatOneProgrammerUKnow</a>
+            </div>
+            
 
         </div>
         </section>
