@@ -35,6 +35,10 @@
 }
 
 /* --- COLOR UTILITIES --- */
+.color-white {
+  color: white;
+}
+
 .text-amber {
   color: var(--color-amber);
 }
@@ -1319,6 +1323,4066 @@
 /* Cursor */
 .cursor-pointer {
   cursor: pointer;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.l--50 {
+  left: -50px;
+}
+
+.l--49 {
+  left: -49px;
+}
+
+.l--48 {
+  left: -48px;
+}
+
+.l--47 {
+  left: -47px;
+}
+
+.l--46 {
+  left: -46px;
+}
+
+.l--45 {
+  left: -45px;
+}
+
+.l--44 {
+  left: -44px;
+}
+
+.l--43 {
+  left: -43px;
+}
+
+.l--42 {
+  left: -42px;
+}
+
+.l--41 {
+  left: -41px;
+}
+
+.l--40 {
+  left: -40px;
+}
+
+.l--39 {
+  left: -39px;
+}
+
+.l--38 {
+  left: -38px;
+}
+
+.l--37 {
+  left: -37px;
+}
+
+.l--36 {
+  left: -36px;
+}
+
+.l--35 {
+  left: -35px;
+}
+
+.l--34 {
+  left: -34px;
+}
+
+.l--33 {
+  left: -33px;
+}
+
+.l--32 {
+  left: -32px;
+}
+
+.l--31 {
+  left: -31px;
+}
+
+.l--30 {
+  left: -30px;
+}
+
+.l--29 {
+  left: -29px;
+}
+
+.l--28 {
+  left: -28px;
+}
+
+.l--27 {
+  left: -27px;
+}
+
+.l--26 {
+  left: -26px;
+}
+
+.l--25 {
+  left: -25px;
+}
+
+.l--24 {
+  left: -24px;
+}
+
+.l--23 {
+  left: -23px;
+}
+
+.l--22 {
+  left: -22px;
+}
+
+.l--21 {
+  left: -21px;
+}
+
+.l--20 {
+  left: -20px;
+}
+
+.l--19 {
+  left: -19px;
+}
+
+.l--18 {
+  left: -18px;
+}
+
+.l--17 {
+  left: -17px;
+}
+
+.l--16 {
+  left: -16px;
+}
+
+.l--15 {
+  left: -15px;
+}
+
+.l--14 {
+  left: -14px;
+}
+
+.l--13 {
+  left: -13px;
+}
+
+.l--12 {
+  left: -12px;
+}
+
+.l--11 {
+  left: -11px;
+}
+
+.l--10 {
+  left: -10px;
+}
+
+.l--9 {
+  left: -9px;
+}
+
+.l--8 {
+  left: -8px;
+}
+
+.l--7 {
+  left: -7px;
+}
+
+.l--6 {
+  left: -6px;
+}
+
+.l--5 {
+  left: -5px;
+}
+
+.l--4 {
+  left: -4px;
+}
+
+.l--3 {
+  left: -3px;
+}
+
+.l--2 {
+  left: -2px;
+}
+
+.l--1 {
+  left: -1px;
+}
+
+.l-0 {
+  left: 0px;
+}
+
+.l--10 {
+  left: -10px;
+}
+
+.l--9 {
+  left: -9px;
+}
+
+.l--8 {
+  left: -8px;
+}
+
+.l--7 {
+  left: -7px;
+}
+
+.l--6 {
+  left: -6px;
+}
+
+.l--5 {
+  left: -5px;
+}
+
+.l--4 {
+  left: -4px;
+}
+
+.l--3 {
+  left: -3px;
+}
+
+.l--2 {
+  left: -2px;
+}
+
+.l--1 {
+  left: -1px;
+}
+
+.l-0 {
+  left: 0px;
+}
+
+.l-1 {
+  left: 1px;
+}
+
+.l-2 {
+  left: 2px;
+}
+
+.l-3 {
+  left: 3px;
+}
+
+.l-4 {
+  left: 4px;
+}
+
+.l-5 {
+  left: 5px;
+}
+
+.l-6 {
+  left: 6px;
+}
+
+.l-7 {
+  left: 7px;
+}
+
+.l-8 {
+  left: 8px;
+}
+
+.l-9 {
+  left: 9px;
+}
+
+.l-10 {
+  left: 10px;
+}
+
+.l-12 {
+  left: 12px;
+}
+
+.l-14 {
+  left: 14px;
+}
+
+.l-16 {
+  left: 16px;
+}
+
+.l-18 {
+  left: 18px;
+}
+
+.l-20 {
+  left: 20px;
+}
+
+.l-22 {
+  left: 22px;
+}
+
+.l-24 {
+  left: 24px;
+}
+
+.l-26 {
+  left: 26px;
+}
+
+.l-28 {
+  left: 28px;
+}
+
+.l-30 {
+  left: 30px;
+}
+
+.l-32 {
+  left: 32px;
+}
+
+.l-34 {
+  left: 34px;
+}
+
+.l-36 {
+  left: 36px;
+}
+
+.l-38 {
+  left: 38px;
+}
+
+.l-40 {
+  left: 40px;
+}
+
+.l-42 {
+  left: 42px;
+}
+
+.l-44 {
+  left: 44px;
+}
+
+.l-46 {
+  left: 46px;
+}
+
+.l-48 {
+  left: 48px;
+}
+
+.l-50 {
+  left: 50px;
+}
+
+.l-55 {
+  left: 55px;
+}
+
+.l-60 {
+  left: 60px;
+}
+
+.l-65 {
+  left: 65px;
+}
+
+.l-70 {
+  left: 70px;
+}
+
+.l-75 {
+  left: 75px;
+}
+
+.l-80 {
+  left: 80px;
+}
+
+.l-85 {
+  left: 85px;
+}
+
+.l-90 {
+  left: 90px;
+}
+
+.l-95 {
+  left: 95px;
+}
+
+.l-100 {
+  left: 100px;
+}
+
+.l-110 {
+  left: 110px;
+}
+
+.l-120 {
+  left: 120px;
+}
+
+.l-130 {
+  left: 130px;
+}
+
+.l-140 {
+  left: 140px;
+}
+
+.l-150 {
+  left: 150px;
+}
+
+.l-160 {
+  left: 160px;
+}
+
+.l-170 {
+  left: 170px;
+}
+
+.l-180 {
+  left: 180px;
+}
+
+.l-190 {
+  left: 190px;
+}
+
+.l-200 {
+  left: 200px;
+}
+
+.l-210 {
+  left: 210px;
+}
+
+.l-220 {
+  left: 220px;
+}
+
+.l-230 {
+  left: 230px;
+}
+
+.l-240 {
+  left: 240px;
+}
+
+.l-250 {
+  left: 250px;
+}
+
+.l-260 {
+  left: 260px;
+}
+
+.l-270 {
+  left: 270px;
+}
+
+.l-280 {
+  left: 280px;
+}
+
+.l-290 {
+  left: 290px;
+}
+
+.l-300 {
+  left: 300px;
+}
+
+.l-310 {
+  left: 310px;
+}
+
+.l-320 {
+  left: 320px;
+}
+
+.l-330 {
+  left: 330px;
+}
+
+.l-340 {
+  left: 340px;
+}
+
+.l-350 {
+  left: 350px;
+}
+
+.l-360 {
+  left: 360px;
+}
+
+.l-370 {
+  left: 370px;
+}
+
+.l-380 {
+  left: 380px;
+}
+
+.l-390 {
+  left: 390px;
+}
+
+.l-400 {
+  left: 400px;
+}
+
+.l-410 {
+  left: 410px;
+}
+
+.l-420 {
+  left: 420px;
+}
+
+.l-430 {
+  left: 430px;
+}
+
+.l-440 {
+  left: 440px;
+}
+
+.l-450 {
+  left: 450px;
+}
+
+.l-460 {
+  left: 460px;
+}
+
+.l-470 {
+  left: 470px;
+}
+
+.l-480 {
+  left: 480px;
+}
+
+.l-490 {
+  left: 490px;
+}
+
+.l-500 {
+  left: 500px;
+}
+
+.r--50 {
+  right: -50px;
+}
+
+.r--49 {
+  right: -49px;
+}
+
+.r--48 {
+  right: -48px;
+}
+
+.r--47 {
+  right: -47px;
+}
+
+.r--46 {
+  right: -46px;
+}
+
+.r--45 {
+  right: -45px;
+}
+
+.r--44 {
+  right: -44px;
+}
+
+.r--43 {
+  right: -43px;
+}
+
+.r--42 {
+  right: -42px;
+}
+
+.r--41 {
+  right: -41px;
+}
+
+.r--40 {
+  right: -40px;
+}
+
+.r--39 {
+  right: -39px;
+}
+
+.r--38 {
+  right: -38px;
+}
+
+.r--37 {
+  right: -37px;
+}
+
+.r--36 {
+  right: -36px;
+}
+
+.r--35 {
+  right: -35px;
+}
+
+.r--34 {
+  right: -34px;
+}
+
+.r--33 {
+  right: -33px;
+}
+
+.r--32 {
+  right: -32px;
+}
+
+.r--31 {
+  right: -31px;
+}
+
+.r--30 {
+  right: -30px;
+}
+
+.r--29 {
+  right: -29px;
+}
+
+.r--28 {
+  right: -28px;
+}
+
+.r--27 {
+  right: -27px;
+}
+
+.r--26 {
+  right: -26px;
+}
+
+.r--25 {
+  right: -25px;
+}
+
+.r--24 {
+  right: -24px;
+}
+
+.r--23 {
+  right: -23px;
+}
+
+.r--22 {
+  right: -22px;
+}
+
+.r--21 {
+  right: -21px;
+}
+
+.r--20 {
+  right: -20px;
+}
+
+.r--19 {
+  right: -19px;
+}
+
+.r--18 {
+  right: -18px;
+}
+
+.r--17 {
+  right: -17px;
+}
+
+.r--16 {
+  right: -16px;
+}
+
+.r--15 {
+  right: -15px;
+}
+
+.r--14 {
+  right: -14px;
+}
+
+.r--13 {
+  right: -13px;
+}
+
+.r--12 {
+  right: -12px;
+}
+
+.r--11 {
+  right: -11px;
+}
+
+.r--10 {
+  right: -10px;
+}
+
+.r--9 {
+  right: -9px;
+}
+
+.r--8 {
+  right: -8px;
+}
+
+.r--7 {
+  right: -7px;
+}
+
+.r--6 {
+  right: -6px;
+}
+
+.r--5 {
+  right: -5px;
+}
+
+.r--4 {
+  right: -4px;
+}
+
+.r--3 {
+  right: -3px;
+}
+
+.r--2 {
+  right: -2px;
+}
+
+.r--1 {
+  right: -1px;
+}
+
+.r-0 {
+  right: 0px;
+}
+
+.r--10 {
+  right: -10px;
+}
+
+.r--9 {
+  right: -9px;
+}
+
+.r--8 {
+  right: -8px;
+}
+
+.r--7 {
+  right: -7px;
+}
+
+.r--6 {
+  right: -6px;
+}
+
+.r--5 {
+  right: -5px;
+}
+
+.r--4 {
+  right: -4px;
+}
+
+.r--3 {
+  right: -3px;
+}
+
+.r--2 {
+  right: -2px;
+}
+
+.r--1 {
+  right: -1px;
+}
+
+.r-0 {
+  right: 0px;
+}
+
+.r-1 {
+  right: 1px;
+}
+
+.r-2 {
+  right: 2px;
+}
+
+.r-3 {
+  right: 3px;
+}
+
+.r-4 {
+  right: 4px;
+}
+
+.r-5 {
+  right: 5px;
+}
+
+.r-6 {
+  right: 6px;
+}
+
+.r-7 {
+  right: 7px;
+}
+
+.r-8 {
+  right: 8px;
+}
+
+.r-9 {
+  right: 9px;
+}
+
+.r-10 {
+  right: 10px;
+}
+
+.r-12 {
+  right: 12px;
+}
+
+.r-14 {
+  right: 14px;
+}
+
+.r-16 {
+  right: 16px;
+}
+
+.r-18 {
+  right: 18px;
+}
+
+.r-20 {
+  right: 20px;
+}
+
+.r-22 {
+  right: 22px;
+}
+
+.r-24 {
+  right: 24px;
+}
+
+.r-26 {
+  right: 26px;
+}
+
+.r-28 {
+  right: 28px;
+}
+
+.r-30 {
+  right: 30px;
+}
+
+.r-32 {
+  right: 32px;
+}
+
+.r-34 {
+  right: 34px;
+}
+
+.r-36 {
+  right: 36px;
+}
+
+.r-38 {
+  right: 38px;
+}
+
+.r-40 {
+  right: 40px;
+}
+
+.r-42 {
+  right: 42px;
+}
+
+.r-44 {
+  right: 44px;
+}
+
+.r-46 {
+  right: 46px;
+}
+
+.r-48 {
+  right: 48px;
+}
+
+.r-50 {
+  right: 50px;
+}
+
+.r-55 {
+  right: 55px;
+}
+
+.r-60 {
+  right: 60px;
+}
+
+.r-65 {
+  right: 65px;
+}
+
+.r-70 {
+  right: 70px;
+}
+
+.r-75 {
+  right: 75px;
+}
+
+.r-80 {
+  right: 80px;
+}
+
+.r-85 {
+  right: 85px;
+}
+
+.r-90 {
+  right: 90px;
+}
+
+.r-95 {
+  right: 95px;
+}
+
+.r-100 {
+  right: 100px;
+}
+
+.r-110 {
+  right: 110px;
+}
+
+.r-120 {
+  right: 120px;
+}
+
+.r-130 {
+  right: 130px;
+}
+
+.r-140 {
+  right: 140px;
+}
+
+.r-150 {
+  right: 150px;
+}
+
+.r-160 {
+  right: 160px;
+}
+
+.r-170 {
+  right: 170px;
+}
+
+.r-180 {
+  right: 180px;
+}
+
+.r-190 {
+  right: 190px;
+}
+
+.r-200 {
+  right: 200px;
+}
+
+.r-210 {
+  right: 210px;
+}
+
+.r-220 {
+  right: 220px;
+}
+
+.r-230 {
+  right: 230px;
+}
+
+.r-240 {
+  right: 240px;
+}
+
+.r-250 {
+  right: 250px;
+}
+
+.r-260 {
+  right: 260px;
+}
+
+.r-270 {
+  right: 270px;
+}
+
+.r-280 {
+  right: 280px;
+}
+
+.r-290 {
+  right: 290px;
+}
+
+.r-300 {
+  right: 300px;
+}
+
+.r-310 {
+  right: 310px;
+}
+
+.r-320 {
+  right: 320px;
+}
+
+.r-330 {
+  right: 330px;
+}
+
+.r-340 {
+  right: 340px;
+}
+
+.r-350 {
+  right: 350px;
+}
+
+.r-360 {
+  right: 360px;
+}
+
+.r-370 {
+  right: 370px;
+}
+
+.r-380 {
+  right: 380px;
+}
+
+.r-390 {
+  right: 390px;
+}
+
+.r-400 {
+  right: 400px;
+}
+
+.r-410 {
+  right: 410px;
+}
+
+.r-420 {
+  right: 420px;
+}
+
+.r-430 {
+  right: 430px;
+}
+
+.r-440 {
+  right: 440px;
+}
+
+.r-450 {
+  right: 450px;
+}
+
+.r-460 {
+  right: 460px;
+}
+
+.r-470 {
+  right: 470px;
+}
+
+.r-480 {
+  right: 480px;
+}
+
+.r-490 {
+  right: 490px;
+}
+
+.r-500 {
+  right: 500px;
+}
+
+.t--50 {
+  top: -50px;
+}
+
+.t--49 {
+  top: -49px;
+}
+
+.t--48 {
+  top: -48px;
+}
+
+.t--47 {
+  top: -47px;
+}
+
+.t--46 {
+  top: -46px;
+}
+
+.t--45 {
+  top: -45px;
+}
+
+.t--44 {
+  top: -44px;
+}
+
+.t--43 {
+  top: -43px;
+}
+
+.t--42 {
+  top: -42px;
+}
+
+.t--41 {
+  top: -41px;
+}
+
+.t--40 {
+  top: -40px;
+}
+
+.t--39 {
+  top: -39px;
+}
+
+.t--38 {
+  top: -38px;
+}
+
+.t--37 {
+  top: -37px;
+}
+
+.t--36 {
+  top: -36px;
+}
+
+.t--35 {
+  top: -35px;
+}
+
+.t--34 {
+  top: -34px;
+}
+
+.t--33 {
+  top: -33px;
+}
+
+.t--32 {
+  top: -32px;
+}
+
+.t--31 {
+  top: -31px;
+}
+
+.t--30 {
+  top: -30px;
+}
+
+.t--29 {
+  top: -29px;
+}
+
+.t--28 {
+  top: -28px;
+}
+
+.t--27 {
+  top: -27px;
+}
+
+.t--26 {
+  top: -26px;
+}
+
+.t--25 {
+  top: -25px;
+}
+
+.t--24 {
+  top: -24px;
+}
+
+.t--23 {
+  top: -23px;
+}
+
+.t--22 {
+  top: -22px;
+}
+
+.t--21 {
+  top: -21px;
+}
+
+.t--20 {
+  top: -20px;
+}
+
+.t--19 {
+  top: -19px;
+}
+
+.t--18 {
+  top: -18px;
+}
+
+.t--17 {
+  top: -17px;
+}
+
+.t--16 {
+  top: -16px;
+}
+
+.t--15 {
+  top: -15px;
+}
+
+.t--14 {
+  top: -14px;
+}
+
+.t--13 {
+  top: -13px;
+}
+
+.t--12 {
+  top: -12px;
+}
+
+.t--11 {
+  top: -11px;
+}
+
+.t--10 {
+  top: -10px;
+}
+
+.t--9 {
+  top: -9px;
+}
+
+.t--8 {
+  top: -8px;
+}
+
+.t--7 {
+  top: -7px;
+}
+
+.t--6 {
+  top: -6px;
+}
+
+.t--5 {
+  top: -5px;
+}
+
+.t--4 {
+  top: -4px;
+}
+
+.t--3 {
+  top: -3px;
+}
+
+.t--2 {
+  top: -2px;
+}
+
+.t--1 {
+  top: -1px;
+}
+
+.t-0 {
+  top: 0px;
+}
+
+.t--10 {
+  top: -10px;
+}
+
+.t--9 {
+  top: -9px;
+}
+
+.t--8 {
+  top: -8px;
+}
+
+.t--7 {
+  top: -7px;
+}
+
+.t--6 {
+  top: -6px;
+}
+
+.t--5 {
+  top: -5px;
+}
+
+.t--4 {
+  top: -4px;
+}
+
+.t--3 {
+  top: -3px;
+}
+
+.t--2 {
+  top: -2px;
+}
+
+.t--1 {
+  top: -1px;
+}
+
+.t-0 {
+  top: 0px;
+}
+
+.t-1 {
+  top: 1px;
+}
+
+.t-2 {
+  top: 2px;
+}
+
+.t-3 {
+  top: 3px;
+}
+
+.t-4 {
+  top: 4px;
+}
+
+.t-5 {
+  top: 5px;
+}
+
+.t-6 {
+  top: 6px;
+}
+
+.t-7 {
+  top: 7px;
+}
+
+.t-8 {
+  top: 8px;
+}
+
+.t-9 {
+  top: 9px;
+}
+
+.t-10 {
+  top: 10px;
+}
+
+.t-12 {
+  top: 12px;
+}
+
+.t-14 {
+  top: 14px;
+}
+
+.t-16 {
+  top: 16px;
+}
+
+.t-18 {
+  top: 18px;
+}
+
+.t-20 {
+  top: 20px;
+}
+
+.t-22 {
+  top: 22px;
+}
+
+.t-24 {
+  top: 24px;
+}
+
+.t-26 {
+  top: 26px;
+}
+
+.t-28 {
+  top: 28px;
+}
+
+.t-30 {
+  top: 30px;
+}
+
+.t-32 {
+  top: 32px;
+}
+
+.t-34 {
+  top: 34px;
+}
+
+.t-36 {
+  top: 36px;
+}
+
+.t-38 {
+  top: 38px;
+}
+
+.t-40 {
+  top: 40px;
+}
+
+.t-42 {
+  top: 42px;
+}
+
+.t-44 {
+  top: 44px;
+}
+
+.t-46 {
+  top: 46px;
+}
+
+.t-48 {
+  top: 48px;
+}
+
+.t-50 {
+  top: 50px;
+}
+
+.t-55 {
+  top: 55px;
+}
+
+.t-60 {
+  top: 60px;
+}
+
+.t-65 {
+  top: 65px;
+}
+
+.t-70 {
+  top: 70px;
+}
+
+.t-75 {
+  top: 75px;
+}
+
+.t-80 {
+  top: 80px;
+}
+
+.t-85 {
+  top: 85px;
+}
+
+.t-90 {
+  top: 90px;
+}
+
+.t-95 {
+  top: 95px;
+}
+
+.t-100 {
+  top: 100px;
+}
+
+.t-110 {
+  top: 110px;
+}
+
+.t-120 {
+  top: 120px;
+}
+
+.t-130 {
+  top: 130px;
+}
+
+.t-140 {
+  top: 140px;
+}
+
+.t-150 {
+  top: 150px;
+}
+
+.t-160 {
+  top: 160px;
+}
+
+.t-170 {
+  top: 170px;
+}
+
+.t-180 {
+  top: 180px;
+}
+
+.t-190 {
+  top: 190px;
+}
+
+.t-200 {
+  top: 200px;
+}
+
+.t-210 {
+  top: 210px;
+}
+
+.t-220 {
+  top: 220px;
+}
+
+.t-230 {
+  top: 230px;
+}
+
+.t-240 {
+  top: 240px;
+}
+
+.t-250 {
+  top: 250px;
+}
+
+.t-260 {
+  top: 260px;
+}
+
+.t-270 {
+  top: 270px;
+}
+
+.t-280 {
+  top: 280px;
+}
+
+.t-290 {
+  top: 290px;
+}
+
+.t-300 {
+  top: 300px;
+}
+
+.t-310 {
+  top: 310px;
+}
+
+.t-320 {
+  top: 320px;
+}
+
+.t-330 {
+  top: 330px;
+}
+
+.t-340 {
+  top: 340px;
+}
+
+.t-350 {
+  top: 350px;
+}
+
+.t-360 {
+  top: 360px;
+}
+
+.t-370 {
+  top: 370px;
+}
+
+.t-380 {
+  top: 380px;
+}
+
+.t-390 {
+  top: 390px;
+}
+
+.t-400 {
+  top: 400px;
+}
+
+.t-410 {
+  top: 410px;
+}
+
+.t-420 {
+  top: 420px;
+}
+
+.t-430 {
+  top: 430px;
+}
+
+.t-440 {
+  top: 440px;
+}
+
+.t-450 {
+  top: 450px;
+}
+
+.t-460 {
+  top: 460px;
+}
+
+.t-470 {
+  top: 470px;
+}
+
+.t-480 {
+  top: 480px;
+}
+
+.t-490 {
+  top: 490px;
+}
+
+.t-500 {
+  top: 500px;
+}
+
+.b--50 {
+  bottom: -50px;
+}
+
+.b--49 {
+  bottom: -49px;
+}
+
+.b--48 {
+  bottom: -48px;
+}
+
+.b--47 {
+  bottom: -47px;
+}
+
+.b--46 {
+  bottom: -46px;
+}
+
+.b--45 {
+  bottom: -45px;
+}
+
+.b--44 {
+  bottom: -44px;
+}
+
+.b--43 {
+  bottom: -43px;
+}
+
+.b--42 {
+  bottom: -42px;
+}
+
+.b--41 {
+  bottom: -41px;
+}
+
+.b--40 {
+  bottom: -40px;
+}
+
+.b--39 {
+  bottom: -39px;
+}
+
+.b--38 {
+  bottom: -38px;
+}
+
+.b--37 {
+  bottom: -37px;
+}
+
+.b--36 {
+  bottom: -36px;
+}
+
+.b--35 {
+  bottom: -35px;
+}
+
+.b--34 {
+  bottom: -34px;
+}
+
+.b--33 {
+  bottom: -33px;
+}
+
+.b--32 {
+  bottom: -32px;
+}
+
+.b--31 {
+  bottom: -31px;
+}
+
+.b--30 {
+  bottom: -30px;
+}
+
+.b--29 {
+  bottom: -29px;
+}
+
+.b--28 {
+  bottom: -28px;
+}
+
+.b--27 {
+  bottom: -27px;
+}
+
+.b--26 {
+  bottom: -26px;
+}
+
+.b--25 {
+  bottom: -25px;
+}
+
+.b--24 {
+  bottom: -24px;
+}
+
+.b--23 {
+  bottom: -23px;
+}
+
+.b--22 {
+  bottom: -22px;
+}
+
+.b--21 {
+  bottom: -21px;
+}
+
+.b--20 {
+  bottom: -20px;
+}
+
+.b--19 {
+  bottom: -19px;
+}
+
+.b--18 {
+  bottom: -18px;
+}
+
+.b--17 {
+  bottom: -17px;
+}
+
+.b--16 {
+  bottom: -16px;
+}
+
+.b--15 {
+  bottom: -15px;
+}
+
+.b--14 {
+  bottom: -14px;
+}
+
+.b--13 {
+  bottom: -13px;
+}
+
+.b--12 {
+  bottom: -12px;
+}
+
+.b--11 {
+  bottom: -11px;
+}
+
+.b--10 {
+  bottom: -10px;
+}
+
+.b--9 {
+  bottom: -9px;
+}
+
+.b--8 {
+  bottom: -8px;
+}
+
+.b--7 {
+  bottom: -7px;
+}
+
+.b--6 {
+  bottom: -6px;
+}
+
+.b--5 {
+  bottom: -5px;
+}
+
+.b--4 {
+  bottom: -4px;
+}
+
+.b--3 {
+  bottom: -3px;
+}
+
+.b--2 {
+  bottom: -2px;
+}
+
+.b--1 {
+  bottom: -1px;
+}
+
+.b-0 {
+  bottom: 0px;
+}
+
+.b--10 {
+  bottom: -10px;
+}
+
+.b--9 {
+  bottom: -9px;
+}
+
+.b--8 {
+  bottom: -8px;
+}
+
+.b--7 {
+  bottom: -7px;
+}
+
+.b--6 {
+  bottom: -6px;
+}
+
+.b--5 {
+  bottom: -5px;
+}
+
+.b--4 {
+  bottom: -4px;
+}
+
+.b--3 {
+  bottom: -3px;
+}
+
+.b--2 {
+  bottom: -2px;
+}
+
+.b--1 {
+  bottom: -1px;
+}
+
+.b-0 {
+  bottom: 0px;
+}
+
+.b-1 {
+  bottom: 1px;
+}
+
+.b-2 {
+  bottom: 2px;
+}
+
+.b-3 {
+  bottom: 3px;
+}
+
+.b-4 {
+  bottom: 4px;
+}
+
+.b-5 {
+  bottom: 5px;
+}
+
+.b-6 {
+  bottom: 6px;
+}
+
+.b-7 {
+  bottom: 7px;
+}
+
+.b-8 {
+  bottom: 8px;
+}
+
+.b-9 {
+  bottom: 9px;
+}
+
+.b-10 {
+  bottom: 10px;
+}
+
+.b-12 {
+  bottom: 12px;
+}
+
+.b-14 {
+  bottom: 14px;
+}
+
+.b-16 {
+  bottom: 16px;
+}
+
+.b-18 {
+  bottom: 18px;
+}
+
+.b-20 {
+  bottom: 20px;
+}
+
+.b-22 {
+  bottom: 22px;
+}
+
+.b-24 {
+  bottom: 24px;
+}
+
+.b-26 {
+  bottom: 26px;
+}
+
+.b-28 {
+  bottom: 28px;
+}
+
+.b-30 {
+  bottom: 30px;
+}
+
+.b-32 {
+  bottom: 32px;
+}
+
+.b-34 {
+  bottom: 34px;
+}
+
+.b-36 {
+  bottom: 36px;
+}
+
+.b-38 {
+  bottom: 38px;
+}
+
+.b-40 {
+  bottom: 40px;
+}
+
+.b-42 {
+  bottom: 42px;
+}
+
+.b-44 {
+  bottom: 44px;
+}
+
+.b-46 {
+  bottom: 46px;
+}
+
+.b-48 {
+  bottom: 48px;
+}
+
+.b-50 {
+  bottom: 50px;
+}
+
+.b-55 {
+  bottom: 55px;
+}
+
+.b-60 {
+  bottom: 60px;
+}
+
+.b-65 {
+  bottom: 65px;
+}
+
+.b-70 {
+  bottom: 70px;
+}
+
+.b-75 {
+  bottom: 75px;
+}
+
+.b-80 {
+  bottom: 80px;
+}
+
+.b-85 {
+  bottom: 85px;
+}
+
+.b-90 {
+  bottom: 90px;
+}
+
+.b-95 {
+  bottom: 95px;
+}
+
+.b-100 {
+  bottom: 100px;
+}
+
+.b-110 {
+  bottom: 110px;
+}
+
+.b-120 {
+  bottom: 120px;
+}
+
+.b-130 {
+  bottom: 130px;
+}
+
+.b-140 {
+  bottom: 140px;
+}
+
+.b-150 {
+  bottom: 150px;
+}
+
+.b-160 {
+  bottom: 160px;
+}
+
+.b-170 {
+  bottom: 170px;
+}
+
+.b-180 {
+  bottom: 180px;
+}
+
+.b-190 {
+  bottom: 190px;
+}
+
+.b-200 {
+  bottom: 200px;
+}
+
+.b-210 {
+  bottom: 210px;
+}
+
+.b-220 {
+  bottom: 220px;
+}
+
+.b-230 {
+  bottom: 230px;
+}
+
+.b-240 {
+  bottom: 240px;
+}
+
+.b-250 {
+  bottom: 250px;
+}
+
+.b-260 {
+  bottom: 260px;
+}
+
+.b-270 {
+  bottom: 270px;
+}
+
+.b-280 {
+  bottom: 280px;
+}
+
+.b-290 {
+  bottom: 290px;
+}
+
+.b-300 {
+  bottom: 300px;
+}
+
+.b-310 {
+  bottom: 310px;
+}
+
+.b-320 {
+  bottom: 320px;
+}
+
+.b-330 {
+  bottom: 330px;
+}
+
+.b-340 {
+  bottom: 340px;
+}
+
+.b-350 {
+  bottom: 350px;
+}
+
+.b-360 {
+  bottom: 360px;
+}
+
+.b-370 {
+  bottom: 370px;
+}
+
+.b-380 {
+  bottom: 380px;
+}
+
+.b-390 {
+  bottom: 390px;
+}
+
+.b-400 {
+  bottom: 400px;
+}
+
+.b-410 {
+  bottom: 410px;
+}
+
+.b-420 {
+  bottom: 420px;
+}
+
+.b-430 {
+  bottom: 430px;
+}
+
+.b-440 {
+  bottom: 440px;
+}
+
+.b-450 {
+  bottom: 450px;
+}
+
+.b-460 {
+  bottom: 460px;
+}
+
+.b-470 {
+  bottom: 470px;
+}
+
+.b-480 {
+  bottom: 480px;
+}
+
+.b-490 {
+  bottom: 490px;
+}
+
+.b-500 {
+  bottom: 500px;
+}
+
+.hor-mid {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ver-mid {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rel-mid {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-0-0 {
+  object-position: 0% 0%;
+}
+
+.p-0-5 {
+  object-position: 0% 5%;
+}
+
+.p-0-10 {
+  object-position: 0% 10%;
+}
+
+.p-0-15 {
+  object-position: 0% 15%;
+}
+
+.p-0-20 {
+  object-position: 0% 20%;
+}
+
+.p-0-25 {
+  object-position: 0% 25%;
+}
+
+.p-0-30 {
+  object-position: 0% 30%;
+}
+
+.p-0-35 {
+  object-position: 0% 35%;
+}
+
+.p-0-40 {
+  object-position: 0% 40%;
+}
+
+.p-0-45 {
+  object-position: 0% 45%;
+}
+
+.p-0-50 {
+  object-position: 0% 50%;
+}
+
+.p-0-55 {
+  object-position: 0% 55%;
+}
+
+.p-0-60 {
+  object-position: 0% 60%;
+}
+
+.p-0-65 {
+  object-position: 0% 65%;
+}
+
+.p-0-70 {
+  object-position: 0% 70%;
+}
+
+.p-0-75 {
+  object-position: 0% 75%;
+}
+
+.p-0-80 {
+  object-position: 0% 80%;
+}
+
+.p-0-85 {
+  object-position: 0% 85%;
+}
+
+.p-0-90 {
+  object-position: 0% 90%;
+}
+
+.p-0-95 {
+  object-position: 0% 95%;
+}
+
+.p-0-100 {
+  object-position: 0% 100%;
+}
+
+.p-5-0 {
+  object-position: 5% 0%;
+}
+
+.p-5-5 {
+  object-position: 5% 5%;
+}
+
+.p-5-10 {
+  object-position: 5% 10%;
+}
+
+.p-5-15 {
+  object-position: 5% 15%;
+}
+
+.p-5-20 {
+  object-position: 5% 20%;
+}
+
+.p-5-25 {
+  object-position: 5% 25%;
+}
+
+.p-5-30 {
+  object-position: 5% 30%;
+}
+
+.p-5-35 {
+  object-position: 5% 35%;
+}
+
+.p-5-40 {
+  object-position: 5% 40%;
+}
+
+.p-5-45 {
+  object-position: 5% 45%;
+}
+
+.p-5-50 {
+  object-position: 5% 50%;
+}
+
+.p-5-55 {
+  object-position: 5% 55%;
+}
+
+.p-5-60 {
+  object-position: 5% 60%;
+}
+
+.p-5-65 {
+  object-position: 5% 65%;
+}
+
+.p-5-70 {
+  object-position: 5% 70%;
+}
+
+.p-5-75 {
+  object-position: 5% 75%;
+}
+
+.p-5-80 {
+  object-position: 5% 80%;
+}
+
+.p-5-85 {
+  object-position: 5% 85%;
+}
+
+.p-5-90 {
+  object-position: 5% 90%;
+}
+
+.p-5-95 {
+  object-position: 5% 95%;
+}
+
+.p-5-100 {
+  object-position: 5% 100%;
+}
+
+.p-10-0 {
+  object-position: 10% 0%;
+}
+
+.p-10-5 {
+  object-position: 10% 5%;
+}
+
+.p-10-10 {
+  object-position: 10% 10%;
+}
+
+.p-10-15 {
+  object-position: 10% 15%;
+}
+
+.p-10-20 {
+  object-position: 10% 20%;
+}
+
+.p-10-25 {
+  object-position: 10% 25%;
+}
+
+.p-10-30 {
+  object-position: 10% 30%;
+}
+
+.p-10-35 {
+  object-position: 10% 35%;
+}
+
+.p-10-40 {
+  object-position: 10% 40%;
+}
+
+.p-10-45 {
+  object-position: 10% 45%;
+}
+
+.p-10-50 {
+  object-position: 10% 50%;
+}
+
+.p-10-55 {
+  object-position: 10% 55%;
+}
+
+.p-10-60 {
+  object-position: 10% 60%;
+}
+
+.p-10-65 {
+  object-position: 10% 65%;
+}
+
+.p-10-70 {
+  object-position: 10% 70%;
+}
+
+.p-10-75 {
+  object-position: 10% 75%;
+}
+
+.p-10-80 {
+  object-position: 10% 80%;
+}
+
+.p-10-85 {
+  object-position: 10% 85%;
+}
+
+.p-10-90 {
+  object-position: 10% 90%;
+}
+
+.p-10-95 {
+  object-position: 10% 95%;
+}
+
+.p-10-100 {
+  object-position: 10% 100%;
+}
+
+.p-15-0 {
+  object-position: 15% 0%;
+}
+
+.p-15-5 {
+  object-position: 15% 5%;
+}
+
+.p-15-10 {
+  object-position: 15% 10%;
+}
+
+.p-15-15 {
+  object-position: 15% 15%;
+}
+
+.p-15-20 {
+  object-position: 15% 20%;
+}
+
+.p-15-25 {
+  object-position: 15% 25%;
+}
+
+.p-15-30 {
+  object-position: 15% 30%;
+}
+
+.p-15-35 {
+  object-position: 15% 35%;
+}
+
+.p-15-40 {
+  object-position: 15% 40%;
+}
+
+.p-15-45 {
+  object-position: 15% 45%;
+}
+
+.p-15-50 {
+  object-position: 15% 50%;
+}
+
+.p-15-55 {
+  object-position: 15% 55%;
+}
+
+.p-15-60 {
+  object-position: 15% 60%;
+}
+
+.p-15-65 {
+  object-position: 15% 65%;
+}
+
+.p-15-70 {
+  object-position: 15% 70%;
+}
+
+.p-15-75 {
+  object-position: 15% 75%;
+}
+
+.p-15-80 {
+  object-position: 15% 80%;
+}
+
+.p-15-85 {
+  object-position: 15% 85%;
+}
+
+.p-15-90 {
+  object-position: 15% 90%;
+}
+
+.p-15-95 {
+  object-position: 15% 95%;
+}
+
+.p-15-100 {
+  object-position: 15% 100%;
+}
+
+.p-20-0 {
+  object-position: 20% 0%;
+}
+
+.p-20-5 {
+  object-position: 20% 5%;
+}
+
+.p-20-10 {
+  object-position: 20% 10%;
+}
+
+.p-20-15 {
+  object-position: 20% 15%;
+}
+
+.p-20-20 {
+  object-position: 20% 20%;
+}
+
+.p-20-25 {
+  object-position: 20% 25%;
+}
+
+.p-20-30 {
+  object-position: 20% 30%;
+}
+
+.p-20-35 {
+  object-position: 20% 35%;
+}
+
+.p-20-40 {
+  object-position: 20% 40%;
+}
+
+.p-20-45 {
+  object-position: 20% 45%;
+}
+
+.p-20-50 {
+  object-position: 20% 50%;
+}
+
+.p-20-55 {
+  object-position: 20% 55%;
+}
+
+.p-20-60 {
+  object-position: 20% 60%;
+}
+
+.p-20-65 {
+  object-position: 20% 65%;
+}
+
+.p-20-70 {
+  object-position: 20% 70%;
+}
+
+.p-20-75 {
+  object-position: 20% 75%;
+}
+
+.p-20-80 {
+  object-position: 20% 80%;
+}
+
+.p-20-85 {
+  object-position: 20% 85%;
+}
+
+.p-20-90 {
+  object-position: 20% 90%;
+}
+
+.p-20-95 {
+  object-position: 20% 95%;
+}
+
+.p-20-100 {
+  object-position: 20% 100%;
+}
+
+.p-25-0 {
+  object-position: 25% 0%;
+}
+
+.p-25-5 {
+  object-position: 25% 5%;
+}
+
+.p-25-10 {
+  object-position: 25% 10%;
+}
+
+.p-25-15 {
+  object-position: 25% 15%;
+}
+
+.p-25-20 {
+  object-position: 25% 20%;
+}
+
+.p-25-25 {
+  object-position: 25% 25%;
+}
+
+.p-25-30 {
+  object-position: 25% 30%;
+}
+
+.p-25-35 {
+  object-position: 25% 35%;
+}
+
+.p-25-40 {
+  object-position: 25% 40%;
+}
+
+.p-25-45 {
+  object-position: 25% 45%;
+}
+
+.p-25-50 {
+  object-position: 25% 50%;
+}
+
+.p-25-55 {
+  object-position: 25% 55%;
+}
+
+.p-25-60 {
+  object-position: 25% 60%;
+}
+
+.p-25-65 {
+  object-position: 25% 65%;
+}
+
+.p-25-70 {
+  object-position: 25% 70%;
+}
+
+.p-25-75 {
+  object-position: 25% 75%;
+}
+
+.p-25-80 {
+  object-position: 25% 80%;
+}
+
+.p-25-85 {
+  object-position: 25% 85%;
+}
+
+.p-25-90 {
+  object-position: 25% 90%;
+}
+
+.p-25-95 {
+  object-position: 25% 95%;
+}
+
+.p-25-100 {
+  object-position: 25% 100%;
+}
+
+.p-30-0 {
+  object-position: 30% 0%;
+}
+
+.p-30-5 {
+  object-position: 30% 5%;
+}
+
+.p-30-10 {
+  object-position: 30% 10%;
+}
+
+.p-30-15 {
+  object-position: 30% 15%;
+}
+
+.p-30-20 {
+  object-position: 30% 20%;
+}
+
+.p-30-25 {
+  object-position: 30% 25%;
+}
+
+.p-30-30 {
+  object-position: 30% 30%;
+}
+
+.p-30-35 {
+  object-position: 30% 35%;
+}
+
+.p-30-40 {
+  object-position: 30% 40%;
+}
+
+.p-30-45 {
+  object-position: 30% 45%;
+}
+
+.p-30-50 {
+  object-position: 30% 50%;
+}
+
+.p-30-55 {
+  object-position: 30% 55%;
+}
+
+.p-30-60 {
+  object-position: 30% 60%;
+}
+
+.p-30-65 {
+  object-position: 30% 65%;
+}
+
+.p-30-70 {
+  object-position: 30% 70%;
+}
+
+.p-30-75 {
+  object-position: 30% 75%;
+}
+
+.p-30-80 {
+  object-position: 30% 80%;
+}
+
+.p-30-85 {
+  object-position: 30% 85%;
+}
+
+.p-30-90 {
+  object-position: 30% 90%;
+}
+
+.p-30-95 {
+  object-position: 30% 95%;
+}
+
+.p-30-100 {
+  object-position: 30% 100%;
+}
+
+.p-35-0 {
+  object-position: 35% 0%;
+}
+
+.p-35-5 {
+  object-position: 35% 5%;
+}
+
+.p-35-10 {
+  object-position: 35% 10%;
+}
+
+.p-35-15 {
+  object-position: 35% 15%;
+}
+
+.p-35-20 {
+  object-position: 35% 20%;
+}
+
+.p-35-25 {
+  object-position: 35% 25%;
+}
+
+.p-35-30 {
+  object-position: 35% 30%;
+}
+
+.p-35-35 {
+  object-position: 35% 35%;
+}
+
+.p-35-40 {
+  object-position: 35% 40%;
+}
+
+.p-35-45 {
+  object-position: 35% 45%;
+}
+
+.p-35-50 {
+  object-position: 35% 50%;
+}
+
+.p-35-55 {
+  object-position: 35% 55%;
+}
+
+.p-35-60 {
+  object-position: 35% 60%;
+}
+
+.p-35-65 {
+  object-position: 35% 65%;
+}
+
+.p-35-70 {
+  object-position: 35% 70%;
+}
+
+.p-35-75 {
+  object-position: 35% 75%;
+}
+
+.p-35-80 {
+  object-position: 35% 80%;
+}
+
+.p-35-85 {
+  object-position: 35% 85%;
+}
+
+.p-35-90 {
+  object-position: 35% 90%;
+}
+
+.p-35-95 {
+  object-position: 35% 95%;
+}
+
+.p-35-100 {
+  object-position: 35% 100%;
+}
+
+.p-40-0 {
+  object-position: 40% 0%;
+}
+
+.p-40-5 {
+  object-position: 40% 5%;
+}
+
+.p-40-10 {
+  object-position: 40% 10%;
+}
+
+.p-40-15 {
+  object-position: 40% 15%;
+}
+
+.p-40-20 {
+  object-position: 40% 20%;
+}
+
+.p-40-25 {
+  object-position: 40% 25%;
+}
+
+.p-40-30 {
+  object-position: 40% 30%;
+}
+
+.p-40-35 {
+  object-position: 40% 35%;
+}
+
+.p-40-40 {
+  object-position: 40% 40%;
+}
+
+.p-40-45 {
+  object-position: 40% 45%;
+}
+
+.p-40-50 {
+  object-position: 40% 50%;
+}
+
+.p-40-55 {
+  object-position: 40% 55%;
+}
+
+.p-40-60 {
+  object-position: 40% 60%;
+}
+
+.p-40-65 {
+  object-position: 40% 65%;
+}
+
+.p-40-70 {
+  object-position: 40% 70%;
+}
+
+.p-40-75 {
+  object-position: 40% 75%;
+}
+
+.p-40-80 {
+  object-position: 40% 80%;
+}
+
+.p-40-85 {
+  object-position: 40% 85%;
+}
+
+.p-40-90 {
+  object-position: 40% 90%;
+}
+
+.p-40-95 {
+  object-position: 40% 95%;
+}
+
+.p-40-100 {
+  object-position: 40% 100%;
+}
+
+.p-45-0 {
+  object-position: 45% 0%;
+}
+
+.p-45-5 {
+  object-position: 45% 5%;
+}
+
+.p-45-10 {
+  object-position: 45% 10%;
+}
+
+.p-45-15 {
+  object-position: 45% 15%;
+}
+
+.p-45-20 {
+  object-position: 45% 20%;
+}
+
+.p-45-25 {
+  object-position: 45% 25%;
+}
+
+.p-45-30 {
+  object-position: 45% 30%;
+}
+
+.p-45-35 {
+  object-position: 45% 35%;
+}
+
+.p-45-40 {
+  object-position: 45% 40%;
+}
+
+.p-45-45 {
+  object-position: 45% 45%;
+}
+
+.p-45-50 {
+  object-position: 45% 50%;
+}
+
+.p-45-55 {
+  object-position: 45% 55%;
+}
+
+.p-45-60 {
+  object-position: 45% 60%;
+}
+
+.p-45-65 {
+  object-position: 45% 65%;
+}
+
+.p-45-70 {
+  object-position: 45% 70%;
+}
+
+.p-45-75 {
+  object-position: 45% 75%;
+}
+
+.p-45-80 {
+  object-position: 45% 80%;
+}
+
+.p-45-85 {
+  object-position: 45% 85%;
+}
+
+.p-45-90 {
+  object-position: 45% 90%;
+}
+
+.p-45-95 {
+  object-position: 45% 95%;
+}
+
+.p-45-100 {
+  object-position: 45% 100%;
+}
+
+.p-50-0 {
+  object-position: 50% 0%;
+}
+
+.p-50-5 {
+  object-position: 50% 5%;
+}
+
+.p-50-10 {
+  object-position: 50% 10%;
+}
+
+.p-50-15 {
+  object-position: 50% 15%;
+}
+
+.p-50-20 {
+  object-position: 50% 20%;
+}
+
+.p-50-25 {
+  object-position: 50% 25%;
+}
+
+.p-50-30 {
+  object-position: 50% 30%;
+}
+
+.p-50-35 {
+  object-position: 50% 35%;
+}
+
+.p-50-40 {
+  object-position: 50% 40%;
+}
+
+.p-50-45 {
+  object-position: 50% 45%;
+}
+
+.p-50-50 {
+  object-position: 50% 50%;
+}
+
+.p-50-55 {
+  object-position: 50% 55%;
+}
+
+.p-50-60 {
+  object-position: 50% 60%;
+}
+
+.p-50-65 {
+  object-position: 50% 65%;
+}
+
+.p-50-70 {
+  object-position: 50% 70%;
+}
+
+.p-50-75 {
+  object-position: 50% 75%;
+}
+
+.p-50-80 {
+  object-position: 50% 80%;
+}
+
+.p-50-85 {
+  object-position: 50% 85%;
+}
+
+.p-50-90 {
+  object-position: 50% 90%;
+}
+
+.p-50-95 {
+  object-position: 50% 95%;
+}
+
+.p-50-100 {
+  object-position: 50% 100%;
+}
+
+.p-55-0 {
+  object-position: 55% 0%;
+}
+
+.p-55-5 {
+  object-position: 55% 5%;
+}
+
+.p-55-10 {
+  object-position: 55% 10%;
+}
+
+.p-55-15 {
+  object-position: 55% 15%;
+}
+
+.p-55-20 {
+  object-position: 55% 20%;
+}
+
+.p-55-25 {
+  object-position: 55% 25%;
+}
+
+.p-55-30 {
+  object-position: 55% 30%;
+}
+
+.p-55-35 {
+  object-position: 55% 35%;
+}
+
+.p-55-40 {
+  object-position: 55% 40%;
+}
+
+.p-55-45 {
+  object-position: 55% 45%;
+}
+
+.p-55-50 {
+  object-position: 55% 50%;
+}
+
+.p-55-55 {
+  object-position: 55% 55%;
+}
+
+.p-55-60 {
+  object-position: 55% 60%;
+}
+
+.p-55-65 {
+  object-position: 55% 65%;
+}
+
+.p-55-70 {
+  object-position: 55% 70%;
+}
+
+.p-55-75 {
+  object-position: 55% 75%;
+}
+
+.p-55-80 {
+  object-position: 55% 80%;
+}
+
+.p-55-85 {
+  object-position: 55% 85%;
+}
+
+.p-55-90 {
+  object-position: 55% 90%;
+}
+
+.p-55-95 {
+  object-position: 55% 95%;
+}
+
+.p-55-100 {
+  object-position: 55% 100%;
+}
+
+.p-60-0 {
+  object-position: 60% 0%;
+}
+
+.p-60-5 {
+  object-position: 60% 5%;
+}
+
+.p-60-10 {
+  object-position: 60% 10%;
+}
+
+.p-60-15 {
+  object-position: 60% 15%;
+}
+
+.p-60-20 {
+  object-position: 60% 20%;
+}
+
+.p-60-25 {
+  object-position: 60% 25%;
+}
+
+.p-60-30 {
+  object-position: 60% 30%;
+}
+
+.p-60-35 {
+  object-position: 60% 35%;
+}
+
+.p-60-40 {
+  object-position: 60% 40%;
+}
+
+.p-60-45 {
+  object-position: 60% 45%;
+}
+
+.p-60-50 {
+  object-position: 60% 50%;
+}
+
+.p-60-55 {
+  object-position: 60% 55%;
+}
+
+.p-60-60 {
+  object-position: 60% 60%;
+}
+
+.p-60-65 {
+  object-position: 60% 65%;
+}
+
+.p-60-70 {
+  object-position: 60% 70%;
+}
+
+.p-60-75 {
+  object-position: 60% 75%;
+}
+
+.p-60-80 {
+  object-position: 60% 80%;
+}
+
+.p-60-85 {
+  object-position: 60% 85%;
+}
+
+.p-60-90 {
+  object-position: 60% 90%;
+}
+
+.p-60-95 {
+  object-position: 60% 95%;
+}
+
+.p-60-100 {
+  object-position: 60% 100%;
+}
+
+.p-65-0 {
+  object-position: 65% 0%;
+}
+
+.p-65-5 {
+  object-position: 65% 5%;
+}
+
+.p-65-10 {
+  object-position: 65% 10%;
+}
+
+.p-65-15 {
+  object-position: 65% 15%;
+}
+
+.p-65-20 {
+  object-position: 65% 20%;
+}
+
+.p-65-25 {
+  object-position: 65% 25%;
+}
+
+.p-65-30 {
+  object-position: 65% 30%;
+}
+
+.p-65-35 {
+  object-position: 65% 35%;
+}
+
+.p-65-40 {
+  object-position: 65% 40%;
+}
+
+.p-65-45 {
+  object-position: 65% 45%;
+}
+
+.p-65-50 {
+  object-position: 65% 50%;
+}
+
+.p-65-55 {
+  object-position: 65% 55%;
+}
+
+.p-65-60 {
+  object-position: 65% 60%;
+}
+
+.p-65-65 {
+  object-position: 65% 65%;
+}
+
+.p-65-70 {
+  object-position: 65% 70%;
+}
+
+.p-65-75 {
+  object-position: 65% 75%;
+}
+
+.p-65-80 {
+  object-position: 65% 80%;
+}
+
+.p-65-85 {
+  object-position: 65% 85%;
+}
+
+.p-65-90 {
+  object-position: 65% 90%;
+}
+
+.p-65-95 {
+  object-position: 65% 95%;
+}
+
+.p-65-100 {
+  object-position: 65% 100%;
+}
+
+.p-70-0 {
+  object-position: 70% 0%;
+}
+
+.p-70-5 {
+  object-position: 70% 5%;
+}
+
+.p-70-10 {
+  object-position: 70% 10%;
+}
+
+.p-70-15 {
+  object-position: 70% 15%;
+}
+
+.p-70-20 {
+  object-position: 70% 20%;
+}
+
+.p-70-25 {
+  object-position: 70% 25%;
+}
+
+.p-70-30 {
+  object-position: 70% 30%;
+}
+
+.p-70-35 {
+  object-position: 70% 35%;
+}
+
+.p-70-40 {
+  object-position: 70% 40%;
+}
+
+.p-70-45 {
+  object-position: 70% 45%;
+}
+
+.p-70-50 {
+  object-position: 70% 50%;
+}
+
+.p-70-55 {
+  object-position: 70% 55%;
+}
+
+.p-70-60 {
+  object-position: 70% 60%;
+}
+
+.p-70-65 {
+  object-position: 70% 65%;
+}
+
+.p-70-70 {
+  object-position: 70% 70%;
+}
+
+.p-70-75 {
+  object-position: 70% 75%;
+}
+
+.p-70-80 {
+  object-position: 70% 80%;
+}
+
+.p-70-85 {
+  object-position: 70% 85%;
+}
+
+.p-70-90 {
+  object-position: 70% 90%;
+}
+
+.p-70-95 {
+  object-position: 70% 95%;
+}
+
+.p-70-100 {
+  object-position: 70% 100%;
+}
+
+.p-75-0 {
+  object-position: 75% 0%;
+}
+
+.p-75-5 {
+  object-position: 75% 5%;
+}
+
+.p-75-10 {
+  object-position: 75% 10%;
+}
+
+.p-75-15 {
+  object-position: 75% 15%;
+}
+
+.p-75-20 {
+  object-position: 75% 20%;
+}
+
+.p-75-25 {
+  object-position: 75% 25%;
+}
+
+.p-75-30 {
+  object-position: 75% 30%;
+}
+
+.p-75-35 {
+  object-position: 75% 35%;
+}
+
+.p-75-40 {
+  object-position: 75% 40%;
+}
+
+.p-75-45 {
+  object-position: 75% 45%;
+}
+
+.p-75-50 {
+  object-position: 75% 50%;
+}
+
+.p-75-55 {
+  object-position: 75% 55%;
+}
+
+.p-75-60 {
+  object-position: 75% 60%;
+}
+
+.p-75-65 {
+  object-position: 75% 65%;
+}
+
+.p-75-70 {
+  object-position: 75% 70%;
+}
+
+.p-75-75 {
+  object-position: 75% 75%;
+}
+
+.p-75-80 {
+  object-position: 75% 80%;
+}
+
+.p-75-85 {
+  object-position: 75% 85%;
+}
+
+.p-75-90 {
+  object-position: 75% 90%;
+}
+
+.p-75-95 {
+  object-position: 75% 95%;
+}
+
+.p-75-100 {
+  object-position: 75% 100%;
+}
+
+.p-80-0 {
+  object-position: 80% 0%;
+}
+
+.p-80-5 {
+  object-position: 80% 5%;
+}
+
+.p-80-10 {
+  object-position: 80% 10%;
+}
+
+.p-80-15 {
+  object-position: 80% 15%;
+}
+
+.p-80-20 {
+  object-position: 80% 20%;
+}
+
+.p-80-25 {
+  object-position: 80% 25%;
+}
+
+.p-80-30 {
+  object-position: 80% 30%;
+}
+
+.p-80-35 {
+  object-position: 80% 35%;
+}
+
+.p-80-40 {
+  object-position: 80% 40%;
+}
+
+.p-80-45 {
+  object-position: 80% 45%;
+}
+
+.p-80-50 {
+  object-position: 80% 50%;
+}
+
+.p-80-55 {
+  object-position: 80% 55%;
+}
+
+.p-80-60 {
+  object-position: 80% 60%;
+}
+
+.p-80-65 {
+  object-position: 80% 65%;
+}
+
+.p-80-70 {
+  object-position: 80% 70%;
+}
+
+.p-80-75 {
+  object-position: 80% 75%;
+}
+
+.p-80-80 {
+  object-position: 80% 80%;
+}
+
+.p-80-85 {
+  object-position: 80% 85%;
+}
+
+.p-80-90 {
+  object-position: 80% 90%;
+}
+
+.p-80-95 {
+  object-position: 80% 95%;
+}
+
+.p-80-100 {
+  object-position: 80% 100%;
+}
+
+.p-85-0 {
+  object-position: 85% 0%;
+}
+
+.p-85-5 {
+  object-position: 85% 5%;
+}
+
+.p-85-10 {
+  object-position: 85% 10%;
+}
+
+.p-85-15 {
+  object-position: 85% 15%;
+}
+
+.p-85-20 {
+  object-position: 85% 20%;
+}
+
+.p-85-25 {
+  object-position: 85% 25%;
+}
+
+.p-85-30 {
+  object-position: 85% 30%;
+}
+
+.p-85-35 {
+  object-position: 85% 35%;
+}
+
+.p-85-40 {
+  object-position: 85% 40%;
+}
+
+.p-85-45 {
+  object-position: 85% 45%;
+}
+
+.p-85-50 {
+  object-position: 85% 50%;
+}
+
+.p-85-55 {
+  object-position: 85% 55%;
+}
+
+.p-85-60 {
+  object-position: 85% 60%;
+}
+
+.p-85-65 {
+  object-position: 85% 65%;
+}
+
+.p-85-70 {
+  object-position: 85% 70%;
+}
+
+.p-85-75 {
+  object-position: 85% 75%;
+}
+
+.p-85-80 {
+  object-position: 85% 80%;
+}
+
+.p-85-85 {
+  object-position: 85% 85%;
+}
+
+.p-85-90 {
+  object-position: 85% 90%;
+}
+
+.p-85-95 {
+  object-position: 85% 95%;
+}
+
+.p-85-100 {
+  object-position: 85% 100%;
+}
+
+.p-90-0 {
+  object-position: 90% 0%;
+}
+
+.p-90-5 {
+  object-position: 90% 5%;
+}
+
+.p-90-10 {
+  object-position: 90% 10%;
+}
+
+.p-90-15 {
+  object-position: 90% 15%;
+}
+
+.p-90-20 {
+  object-position: 90% 20%;
+}
+
+.p-90-25 {
+  object-position: 90% 25%;
+}
+
+.p-90-30 {
+  object-position: 90% 30%;
+}
+
+.p-90-35 {
+  object-position: 90% 35%;
+}
+
+.p-90-40 {
+  object-position: 90% 40%;
+}
+
+.p-90-45 {
+  object-position: 90% 45%;
+}
+
+.p-90-50 {
+  object-position: 90% 50%;
+}
+
+.p-90-55 {
+  object-position: 90% 55%;
+}
+
+.p-90-60 {
+  object-position: 90% 60%;
+}
+
+.p-90-65 {
+  object-position: 90% 65%;
+}
+
+.p-90-70 {
+  object-position: 90% 70%;
+}
+
+.p-90-75 {
+  object-position: 90% 75%;
+}
+
+.p-90-80 {
+  object-position: 90% 80%;
+}
+
+.p-90-85 {
+  object-position: 90% 85%;
+}
+
+.p-90-90 {
+  object-position: 90% 90%;
+}
+
+.p-90-95 {
+  object-position: 90% 95%;
+}
+
+.p-90-100 {
+  object-position: 90% 100%;
+}
+
+.p-95-0 {
+  object-position: 95% 0%;
+}
+
+.p-95-5 {
+  object-position: 95% 5%;
+}
+
+.p-95-10 {
+  object-position: 95% 10%;
+}
+
+.p-95-15 {
+  object-position: 95% 15%;
+}
+
+.p-95-20 {
+  object-position: 95% 20%;
+}
+
+.p-95-25 {
+  object-position: 95% 25%;
+}
+
+.p-95-30 {
+  object-position: 95% 30%;
+}
+
+.p-95-35 {
+  object-position: 95% 35%;
+}
+
+.p-95-40 {
+  object-position: 95% 40%;
+}
+
+.p-95-45 {
+  object-position: 95% 45%;
+}
+
+.p-95-50 {
+  object-position: 95% 50%;
+}
+
+.p-95-55 {
+  object-position: 95% 55%;
+}
+
+.p-95-60 {
+  object-position: 95% 60%;
+}
+
+.p-95-65 {
+  object-position: 95% 65%;
+}
+
+.p-95-70 {
+  object-position: 95% 70%;
+}
+
+.p-95-75 {
+  object-position: 95% 75%;
+}
+
+.p-95-80 {
+  object-position: 95% 80%;
+}
+
+.p-95-85 {
+  object-position: 95% 85%;
+}
+
+.p-95-90 {
+  object-position: 95% 90%;
+}
+
+.p-95-95 {
+  object-position: 95% 95%;
+}
+
+.p-95-100 {
+  object-position: 95% 100%;
+}
+
+.p-100-0 {
+  object-position: 100% 0%;
+}
+
+.p-100-5 {
+  object-position: 100% 5%;
+}
+
+.p-100-10 {
+  object-position: 100% 10%;
+}
+
+.p-100-15 {
+  object-position: 100% 15%;
+}
+
+.p-100-20 {
+  object-position: 100% 20%;
+}
+
+.p-100-25 {
+  object-position: 100% 25%;
+}
+
+.p-100-30 {
+  object-position: 100% 30%;
+}
+
+.p-100-35 {
+  object-position: 100% 35%;
+}
+
+.p-100-40 {
+  object-position: 100% 40%;
+}
+
+.p-100-45 {
+  object-position: 100% 45%;
+}
+
+.p-100-50 {
+  object-position: 100% 50%;
+}
+
+.p-100-55 {
+  object-position: 100% 55%;
+}
+
+.p-100-60 {
+  object-position: 100% 60%;
+}
+
+.p-100-65 {
+  object-position: 100% 65%;
+}
+
+.p-100-70 {
+  object-position: 100% 70%;
+}
+
+.p-100-75 {
+  object-position: 100% 75%;
+}
+
+.p-100-80 {
+  object-position: 100% 80%;
+}
+
+.p-100-85 {
+  object-position: 100% 85%;
+}
+
+.p-100-90 {
+  object-position: 100% 90%;
+}
+
+.p-100-95 {
+  object-position: 100% 95%;
+}
+
+.p-100-100 {
+  object-position: 100% 100%;
 }
 
 /*# sourceMappingURL=utilities.css.map */
