@@ -152,8 +152,6 @@ div:has(> .tlogo) {
   height: 215px;
 }
 
-/* === CUSTOM === */
-/* --- CARD --- */
 .card > hr {
   border: 1px solid var(--color-wood);
   width: 100%;
@@ -169,6 +167,11 @@ div:has(> .tlogo) {
 .card:hover {
   transition-duration: var(--tduration);
   transform: translateY(-2px);
+}
+
+.card-base {
+  width: 500px;
+  height: 250px;
 }
 
 .card-primary {

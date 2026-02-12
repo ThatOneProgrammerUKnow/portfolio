@@ -127,8 +127,8 @@ div:has(>.tlogo) {
     width: 215px;
     height: 215px;
 }
-/* === CUSTOM === */
-/* --- CARD --- */
+// #==================================================# CUSTOM ELEMENTS #==================================================#
+// #==============================# CARDS #==============================#
 .card > hr{
     border: 1px solid var(--color-wood);
     width: 100%;
@@ -145,6 +145,13 @@ div:has(>.tlogo) {
     transform: translateY(-2px);
 }
 
+// #==========# Sizes #==========#
+.card-base{
+    width: 500px;
+    height: 250px;
+}
+
+// #==========# Different styles #==========#
 .card-primary{
     background: var(--color-paper);
     border: 2px solid var(--color-wood);
