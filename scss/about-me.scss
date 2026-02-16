@@ -1,0 +1,17 @@
+body{
+    color: white;
+}
+.cols-25-1{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+p{ font-size: var(--text-lg)}
+
+.notes-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+    gap: 10px;
+    place-items: center;
+}

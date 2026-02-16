@@ -4,9 +4,11 @@
    ==================================== */
 :root {
     /* --- THEME COLORS --- */
+    // Amber
     --color-amber: #E8B931;        /* primary accent */
     --color-amber-hover: #E5A000;  /* primary hover */
 
+    // Wood
     --color-wood: #522504;         /* text / dark accent */
     --color-wood-75: rgba(82, 37, 4, 0.75); 
     --color-wood-50: rgba(82, 37, 4, 0.50);
@@ -14,6 +16,8 @@
 
 
     --color-wood-dark: #BF6A02;    /* border / stronger */
+
+      
     --color-bg-start: #003154;     /* page gradient start */
     --color-bg-start-75: rgba(0, 49, 84, 0.75);
     --color-bg-start-50: rgba(0, 49, 84, 0.50);
@@ -21,6 +25,9 @@
 
 
     --color-bg-end: #0072C4;       /* page gradient end */
+    --color-bg-end-25: #0072C425; 
+
+
     --color-bg-end-hover: #005fa3;
 
     --color-paper: #FFF2CC;        /* light card background */
@@ -28,10 +35,18 @@
     --color-paper-50: rgba(255, 242, 204, 0.50);
     --color-paper-25: rgba(255, 242, 204, 0.25);
 
+
     --color-light-gray: #C1CAD7;
 
+    // Blues
     --color-subtle-blue: #EBF4FF;
     --color-subtle-blue-hover: #E2EDFA;
+
+    --color-blue-light: #0072C4; 
+    --color-blue-med: #00508a;
+    --color-blue-dark: #003154;
+
+
    
 
    /* --- FONT --- */
@@ -111,7 +126,7 @@
 .bc-wood { border-color: var(--color-wood); }
 
 // Type
-.bs-slid { border-style: solid; }
+.bs-solid { border-style: solid; }
 
 // General
 .b-1 {border: 2px solid black;}
@@ -132,7 +147,7 @@
 $sizes-fine: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
 
 // Coarse steps (15px and above)
-$sizes-coarse: 15, 20, 25, 30, 40, 50;
+$sizes-coarse: 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500;
 
 // All margin/padding sizes combined
 $sizes-all: join($sizes-fine, $sizes-coarse);
@@ -146,7 +161,7 @@ $sides: (
 );
 
 
-// --- MARGIN UTILITIES --------------------------------------------------------
+// --- MARGIN & PADDING UTILITIES --------------------------------------------------------
 
 // Directional (mt-*, mr-*, mb-*, ml-*)
 @each $abbr, $side in $sides {
@@ -156,9 +171,16 @@ $sides: (
     }
   }
 }
+@each $abbr, $side in $sides {
+  @each $size in $sizes-all {
+    .p#{$abbr}-#{$size}px {
+      padding-#{$side}: #{$size}px;
+    }
+  }
+}
 
 // Shorthand all-sides (m-*)
-$sizes-margin-all: 10, 15, 20;
+$sizes-margin-all: 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500;
 
 @each $size in $sizes-margin-all {
   .m-#{$size}px {
@@ -170,7 +192,7 @@ $sizes-margin-all: 10, 15, 20;
 // --- PADDING UTILITIES -------------------------------------------------------
 
 // Shorthand all-sides (p-*)
-$sizes-padding-all: 10, 15, 20, 25, 30, 40, 50;
+$sizes-padding-all: 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500;
 
 @each $size in $sizes-padding-all {
   .p-#{$size}px {
@@ -190,7 +212,7 @@ $sizes-padding-all: 10, 15, 20, 25, 30, 40, 50;
 
 // --- GAP UTILITIES -----------------------------------------------------------
 
-$sizes-gap: 10, 12, 15, 20, 25, 30, 40, 50;
+$sizes-gap: 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500;
 
 @each $size in $sizes-gap {
   .gap-#{$size}px {
@@ -256,6 +278,11 @@ $sizes-gap: 10, 12, 15, 20, 25, 30, 40, 50;
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
+
+// #=====# UL #=====#
+.list-bullet{ list-style-type: disc;}
+.list-none{ list-style-type: none ;}
+
 
 /* Cursor */
 .cursor-pointer { cursor: pointer;}

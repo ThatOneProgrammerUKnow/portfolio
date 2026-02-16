@@ -10,6 +10,7 @@ h2{ font-size: var(--text-4xl); }
 h3{ font-size: var(--text-3xl); }
 h4{ font-size: var(--text-2xl); }
 h5{ font-size: var(--text-xl); }
+h6{ font-size: var(--text-lg); }
 
 /* --- BUTTON UTILITIES --- */
 .btn {
@@ -17,7 +18,6 @@ h5{ font-size: var(--text-xl); }
     border-radius: 8px;
     border: 1px solid;
     display: block;
-    transition-duration: var(--tduration);
     box-sizing: border-box;
 
     font-size: var(--text-2xl);
@@ -40,6 +40,8 @@ h5{ font-size: var(--text-xl); }
     border-color: var(--color-wood-dark);
     font-weight: bold;
     box-shadow: 0 2px 1px 1px var(--color-wood-25);
+    transition-duration: var(--tduration);
+
 }
 
 .btn-primary:hover{
@@ -66,14 +68,31 @@ h5{ font-size: var(--text-xl); }
     border-color: var(--color-bg-start);
     font-weight: bold;
     box-shadow: 0 2px 1px 1px var(--color-bg-start-25);
+    transition-duration: var(--tduration);
+
 }
 
 .btn-secondary:hover{
     background-color: var(--color-bg-end-hover);
 }
 
+//#=====# Tersiary BUTTON #=====#
+.btn-tersiary {
+    background-color: var(--color-bg-end);
+    color: white;
+    border-color: var(--color-bg-start);
+    font-weight: bold;
+}
+
+.btn-tersiary:hover{
+    background-color: var(--color-bg-end-hover);
+}
+
 //#=====# Button sizes #=====#
+.btn-xm { width: fit-content; height: 30px; font-size: var(--textxl)}
 .btn-sm { width: 120px; height: 40px; font-size: var(--text-lg); }
+
+.btn-long {width: 200px;}
 
 /* --- LOGOS --- */
 /* Transparent */
@@ -135,14 +154,10 @@ div:has(>.tlogo) {
 }
 
 .card{
-    border-radius: 50px;
+    border-radius: 20px;
     min-width: 250px;
     color: var(--color-wood);
     transition-duration: var(--tduration);
-}
-.card:hover{
-    transition-duration: var(--tduration);
-    transform: translateY(-2px);
 }
 
 // #==========# Sizes #==========#
@@ -161,9 +176,27 @@ div:has(>.tlogo) {
 .card-primary:hover{
     box-shadow: 0 2px 1px 1px var(--color-wood-50);
     transition-duration: var(--tduration);
+    transition-duration: var(--tduration);
+    transform: translateY(-2px);
 }
 
-/* --- FORMS --- */
+.card-secondary{
+    background: rgba(255, 255, 255);
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    color: var(--color-blue-med);
+    padding: 20px;
+}
+.card-secondary>a{
+    margin: 10px;
+}
+
+
+
+
+
+
+// #==============================# Forms #==============================#
 // Labels
 label{
     pointer-events: none;
@@ -187,4 +220,19 @@ label{
     outline: none;
     box-shadow: 0 0 5px var(--color-wood-25);
     background-color: var(--color-subtle-blue-hover);
+}
+
+// #==============================# Notes #==============================#
+.note{
+    background-color: var(--color-blue-light);
+    border: 1px solid var(--color-blue-dark);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 2.5px;
+}
+
+.note-base{
+    width: 200px;
+    height: 25px;
 }
