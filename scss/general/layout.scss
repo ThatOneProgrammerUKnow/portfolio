@@ -5,13 +5,21 @@
 }
 html{
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body{
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, var(--color-bg-start), var(--color-bg-end)) no-repeat top;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 
+}
+
+// GRID
+.grid-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* --- NAVIGATION --- */
